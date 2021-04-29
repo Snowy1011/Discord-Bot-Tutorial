@@ -1,0 +1,1 @@
+Make a file called ".env" and add "TOKEN=<your token goes here>".
