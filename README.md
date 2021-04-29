@@ -3,13 +3,9 @@ be sure to watch the episodes: https://www.youtube.com/watch?v=r4EEs5N3VeM&list=
 
 To make a basic command use this:
 ```python
-import discord
-from discord.ext import commands, tasks
-
-bot = commands.Bot(command_prefix="!")
-token = os.environ.["TOKEN"]
-
-bot.run(token)
+@bot.command()
+async def <commandName>(ctx):
+  await ctx.send("<bots reply>")
 ```
 
 I reccomend u to use replit just because its the same IDE im using and other IDE's might have problems.
