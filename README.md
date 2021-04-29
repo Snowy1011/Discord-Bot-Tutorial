@@ -11,3 +11,10 @@ token = os.environ.["TOKEN"]
 
 bot.run(token)
 ```
+
+I reccomend u to use replit just because its the same IDE im using and other IDE's might have problems.
+But if ur using another one. For the enviroment variables, make a file named .env, and then put this:
+"TOKEN=<YOUR TOKEN HERE>"
+It should kind of look like this:
+"TOKEN=ODM3MDA4MjkxMzUxMjMyNTIz.YImStw.-aPLEnE1rUHRk4QL-WJDaeUEhfs"
+But replace the token with ur bots token.
